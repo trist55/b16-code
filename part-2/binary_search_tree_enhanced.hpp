@@ -5,12 +5,20 @@
 
 template <typename T> T bst_min(const T &tree)
 {
-    // WRITE YOUR CODE HERE
+    auto t = tree;
+    while (left(t)) {
+        t = left(t);
+    }
+    return t;
 }
 
 template <typename T> T bst_max(const T &tree)
 {
-    // WRITE YOUR CODE HERE
+    auto t = tree;
+    while (right(t)) {
+        t = right(t);
+    }
+    return t;
 }
 
 #endif // __binary_saerch_tree_enhanced__
