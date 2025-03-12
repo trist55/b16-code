@@ -1,3 +1,7 @@
 {
-  "cmake.options.statusBarVisibility": "visible"
+  "cmake.options.statusBarVisibility": "visible",
+  "files.associations": {
+    "array": "cpp",
+    "string_view": "cpp"
+  }
 }
